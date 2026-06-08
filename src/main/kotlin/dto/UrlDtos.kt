@@ -11,3 +11,8 @@ data class UrlCreateRequestDto(
 data class UrlCreateResponseDto(
     val shortUrl: String
 )
+
+@Serializable
+data class UrlsResponseDto(
+    val urls: Set<String>
+)
