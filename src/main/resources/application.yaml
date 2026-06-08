@@ -3,4 +3,6 @@ ktor:
     port: 8080
   application:
     modules:
+      - dev.drewboiii.SerializationKt.configureSerialization
+      - dev.drewboiii.KoinKt.configureKoin
       - dev.drewboiii.RoutingKt.configureRouting
